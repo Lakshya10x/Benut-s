@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none; /* to remove  */
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.F14 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #2d3748;
+}
+
+.F16 {
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.F18 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.59);
+}
+
+.F20 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.F23 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.F30 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #1a202c;
+}
+
+/* Main Page */
+
+.box {
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 1em 14em 1.6em 14em;
+  width: 80%;
+  margin-top: 4em;
+}
+
+.btn-submit {
+  background-color: #ea9926;
+  border-radius: 3px;
+  height: 50px;
+  width: 200px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.custom-main-form-control {
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 3px !important;
+  height: 56px !important;
+}
+
+.form-control::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2d3748;
+}
+
+.circle {
+  position: absolute;
+  bottom: -5%;
+  right: -4%;
+  z-index: -1;
+}
+
+.top {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 80%;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  width: 100%;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+}
+
+/* Login Page */
+
+.mid-left {
+  position: absolute;
+  top: 18%;
+  left: 0;
+  width: 50%;
+}
+
+.mid-right {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  right: 0%;
+  transform: translate(-35%, -50%);
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 50%;
+}
+
+.form-check-input:checked {
+  background-color: #ea9926;
+  border-color: #ea9926;
+}
+
+.btn-login {
+  background-color: #ea9926;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1%;
+  width: 35%;
+  right: 0%;
+  transform: translate(-30%, -0%);
+}
+
+.custom-form-control {
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 5px !important;
+  height: 50px !important;
+}
+
+/* Reach Us Page */
+
+.reach {
+  height: 100vh;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+.middle-reach {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -45%);
+  width: 50%;
+}
+
+.btn-reach-submit {
+  background-color: #ea9926;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  width: 240px;
+  height: 50px;
+}
+
+.call {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-40%, -140%);
+  width: 24%;
+}
+
+.call-inside {
+  background: #ffffff;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 19px 19px 16px 21px;
+}
+
+@media only screen and (max-width: 1376px) {
+  .F14 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .F16 {
+    font-size: 14px !important;
+    line-height: 17px !important;
+  }
+  .F18 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .F20 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .F23 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .F30 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .btn-submit {
+    font-size: 16px;
+    line-height: 20px;
+    height: 45px;
+  }
+  .custom-main-form-control {
+    height: 45px !important;
+  }
+  .form-control::placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .btn-login {
+    font-size: 16px;
+    line-height: 18px;
+    height: 40px;
+  }
+  .custom-form-control {
+    height: 40px !important;
+  }
+  .btn-reach-submit {
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middle {
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  .box {
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .flex-mobile {
+    flex-direction: column;
+  }
+  .btn-submit {
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+  .mid-left {
+    display: none;
+  }
+  .mid-right {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .footer {
+    position: absolute;
+    bottom: 1%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+  }
+  .reach {
+    height: 100% !important;
+    min-height: auto !important;
+    overflow: visible !important;
+  }
+  .middle-reach {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 80%;
+  }
+  .call {
+    display: none;
+  }
+  .margin {
+    margin-top: 3%;
+  }
+  .btn-reach-submit {
+    margin-bottom: 5%;
+  }
+}
